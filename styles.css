@@ -1,0 +1,63 @@
+body {
+  background-color: #fcfcfc;
+}
+
+.header {
+  padding: 50px;
+  text-align: center;
+  background-image: url("https://finn-content-hub.imgix.net/bilder/Romsdalen-hovedbilde.jpg?auto=compress&crop=focalpoint&domain=finn-content-hub.imgix.net&fit=crop&fm=jpg&fp-x=0.5&fp-y=0.5&h=900&ixlib=php-2.2.0&w=1600");
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 45px;
+  font-family: Nunito, sans-serif;
+}
+
+.navigationbar {
+	overflow: hidden;
+	background-color: #333;
+	font-family: Nunito, sans-serif;
+}
+
+.navigationbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.navigationbar a:hover {
+  background-color: #ddd;
+  color: black;
+} 
+
+.main {
+	margin-left: 160px;
+	margin-right: 160px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0px 10px;
+	border: 5px solid #babaa8;
+}
+
+img { 
+	max-width: 100%;
+	margin-top: 10px;
+	}
+	
+h2 {
+	font-family: Nunito, sans-serif;
+	text-decoration: underline dotted black;
+}
+
+p {
+	font-family: Nunito, sans-serif;
+	line-height: 20px;
+}
+
+.a {
+	font-family: 'Times New Roman';
+	font-size: 10px;
+	float: right;
+}
